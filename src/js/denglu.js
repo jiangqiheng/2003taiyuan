@@ -4,6 +4,7 @@ $(function(){
     $shou.click(function(){
         location.href = '../index.html'
     })
+
     
     $('#d1').click(function(){
         var uname = $('#in1').val();
