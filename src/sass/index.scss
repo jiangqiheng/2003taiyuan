@@ -1,0 +1,349 @@
+*{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+a{text-decoration: none;}
+img{display: block;}
+.clear:after{content: ""; clear: both; display: block;}
+.l{float: left;}
+.r{float: right;}
+.container{width: 1200px; margin:0 auto; position: relative;}
+.container-fluid{ position: relative;}
+header{
+    overflow: hidden;
+    height: 130px;
+    img{
+        width: 162px;
+        height: 50px;
+        margin:25px auto;
+    }
+}
+header .d1{
+    width: 115px;
+
+    // background: yellow;
+    margin-left: 30px;
+    margin-top: -50px;
+    a{
+        color: black;
+
+    }
+}
+header .d2{
+    #deng,#zhu{
+        cursor: pointer;
+    }
+    width: 120px;
+    // background: yellow;
+    margin-left: 1044px;
+    margin-top: -15px;
+    a{
+        color: black;
+
+    }
+    
+}
+nav{
+    height: 50px;
+    background: #000000;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        width: 866px;
+        li:hover .li-d1{
+            display: block;
+        }
+        li{
+            position: relative;
+            a{
+                color: #ffb81c;
+            line-height: 50px;
+            }
+            a:hover{
+                color: white;
+            }    
+        }
+    }
+   
+}
+ .nav-div{
+      span{
+         color: #ffb81c ;
+     line-height: 50px;
+     }
+     z-index: 2;
+     
+    display: flex;
+    justify-content: space-between;
+}
+.li-d1{
+    position: fixed;
+    top: 180px;
+    left:352px;
+    background: white;
+    display: none;
+    table{
+        a{
+            color: #666666;
+        }
+        a:hover{
+            color: black;
+        }
+    }
+}
+main{
+    position: relative;
+    video{
+        position: absolute;
+        left: 550px;
+        top: 450px;
+        width: 650px;
+        height: 550px;
+        background: black;
+    }
+}
+main .img01{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+main .img02{
+    position: absolute;
+    top: 20px;
+    left: 718px;
+}
+main .img03{
+    position: absolute;
+    top: 20px;
+    left: 550px;
+}
+main .img04{
+    position: absolute;
+    left: 550px;
+    top: 450px;
+    width: 650px;
+    height: 550px;
+}
+main .img05{
+    position: absolute;
+    top: 710px;
+    left: -30px;
+}
+main .img06{
+    position: absolute;
+    left: 0;
+    top: 1092px;
+}
+main .img07{
+    position: absolute;
+    left: 458px;
+    top: 1056px;
+}
+
+body {
+        // background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+main {
+    .swiper-button-prev{
+        position: absolute;
+        left: 554px;
+        top: 1600px;
+        width: 30px;
+        height: 20px;
+    }
+    .swiper-button-next{
+        position: absolute;
+        left: 625px;
+        top: 1600px;
+        width: 30px;
+        height: 20px;
+    }
+    .img08{
+        position: absolute;
+        top: 1590px;
+    }
+    .img09{
+        position: absolute;
+        left: 538px;
+        top: 1562px;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 300px;
+        margin: 20px auto;
+        position: absolute;
+        top: 1135px;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        img{
+            height: 190px;
+            width: 184px;
+        }
+    }
+    .append-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .append-buttons a {
+        display: inline-block;
+        border: 1px solid #007aff;
+        color: #007aff;
+        text-decoration: none;
+        padding: 4px 10px;
+        border-radius: 4px;
+        margin: 0 10px;
+        font-size: 13px;
+    }
+    .car{
+        position: absolute;
+        top: 1660px;
+    }
+    .car-right{
+        position: absolute;
+        top: 1700px; 
+        right: 0px;
+    }
+    .fenlan{
+        position: absolute;
+        left: 0px;
+        top: 2322px;
+    }
+    .nan{
+        position: absolute;
+        top: 2652px;
+        margin-bottom: 44px;
+    }
+    .nv{
+        position: absolute;
+        top: 2652px;
+        left: 410px; 
+        margin-bottom: 44px; 
+    }
+    .tui{
+        position: absolute;
+        top: 2652px;
+        left: 818px;
+        margin-bottom: 44px; 
+    }
+}
+#gu{
+    position: fixed;
+    top: 80%;
+    left: 230px;
+    z-index: 9999;
+}
+footer{
+    background: #ffb81c;
+    position: relative;
+    top: 3366px;
+    overflow: hidden;
+    .kuang{
+        overflow: hidden;
+        position: relative;
+        .tou{
+            margin-left: 452px;
+            margin-top: 62px;
+            margin-bottom: 50px;
+        }
+       .shou{
+        display: flex;
+        justify-content: space-between;
+        img{
+            margin-bottom: 44px;
+        }
+       }
+       .shen{
+        display: flex;
+        justify-content: space-between;
+       }
+       .d1{
+           width: 338px;
+           margin-bottom: 60px;
+           span{
+               margin-right: 90px;
+           }
+       }
+       .d2{
+           .sp1{ 
+               width: 40px;
+               display:block;
+               margin-top: -130px;
+               margin-left: 122px;
+               img{
+                   margin-left:-172px;
+                   margin-top: -85px;
+                   display: none;
+                   
+                  
+               }
+              
+           }
+            .sp1:hover .weibo{
+               
+                   display: block;
+               }
+            .sp2{
+                margin-left: 420px;
+                margin-top: -30px;
+                img{
+                    margin-left:-172px;
+                    margin-top: -85px;
+                   display: none;
+                }
+            }  
+            .sp2:hover .weixin{
+                display: block;
+            } 
+           
+       }
+       .d3{
+           width: 204px;
+       }
+       .d4{
+           width: 122px;
+       }
+       .jiao{
+           img{
+               display: inline;
+           }
+           span{
+               margin-right:  30px; ;
+           }
+       }
+       .wei{
+           margin-bottom: 38px;
+           margin-top: 20px;
+           img{
+            display: inline;
+            margin-right: 34px;
+           }
+       }
+       .gen{
+          
+           img{
+            display: inline;
+            margin-left: 466px;
+        }
+       }
+    }
+}

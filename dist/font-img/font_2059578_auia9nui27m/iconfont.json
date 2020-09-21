@@ -1,0 +1,30 @@
+{
+  "id": "2059578",
+  "name": "seco",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "166176",
+      "name": "小三角down",
+      "font_class": "xiaosanjiaodown",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "4471934",
+      "name": "star",
+      "font_class": "star",
+      "unicode": "e6ee",
+      "unicode_decimal": 59118
+    },
+    {
+      "icon_id": "11673577",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    }
+  ]
+}

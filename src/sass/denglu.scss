@@ -1,0 +1,106 @@
+*{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+a{text-decoration: none;}
+img{display: block;}
+.clear:after{content: ""; clear: both; display: block;}
+.l{float: left;}
+.r{float: right;}
+.container{width: 1200px; margin:0 auto; position: relative;}
+.container-fluid{ position: relative;}
+header{
+    height: 72px;
+    background: #333231;
+    img{
+        position: absolute;
+        left: 362px;
+    }
+    div{
+        position: absolute;
+        left: 1362px;
+        a{
+            color: #999999;
+            line-height: 72px;
+        }
+        span{
+            margin-left: 20px;
+        }
+
+    }
+
+}
+main{
+    background: #fdf8f4;
+    img{
+        margin-left: 360px;
+    }
+    div{
+        position: absolute;
+        top: 94px;
+        left: 1178px;
+        width: 383px;
+        height: 485px;
+        background: #ffffff;
+        overflow: hidden;
+        form{
+            #p1{
+                color: #f19108;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 45px;
+                margin-left: 158px;
+            }
+            #in1{
+                margin-left: 36px;
+                margin-bottom: 15px;
+                width: 310px;
+                height: 54px;
+            }
+            #in2{
+                margin-left: 36px;
+                margin-bottom: 15px;
+                width: 310px;
+                height: 54px;
+            }
+            #in3{
+                margin-left: 36px;
+            }
+            #d1{
+                position: absolute;
+                left: 36px;
+                top: 280px;
+                width: 310px;
+                height: 48px;
+                background: #f19108;
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                line-height: 48px;
+            }
+            #p2{
+                position: absolute;
+                left: 36px;
+                top: 360px;
+                color: #999999;
+            }
+            #p3{
+                position: absolute;
+                left: 36px;
+                top: 390px;
+                a{
+                    color: black;
+                }
+                .sp1{
+                    margin-right: 60px;
+                }
+            }
+            #p4{
+                position: absolute;
+                left: 36px;
+                top: 440px;
+                span{
+                    color:#f19108 ;
+                }
+            }
+        }
+    }
+}
